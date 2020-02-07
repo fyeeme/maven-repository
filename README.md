@@ -6,12 +6,19 @@
 1. add repository
 
 ```xml
-<repositories>
-  <repository>
-    <id>maven-repository</id>
-    <url>git@github.com:fyeeme/maven-repository.git</url>
-  </repository>
-</repositories>
+	<repositories>
+		<repository>
+			<id>wxpay-sdk</id>
+			<name>com.github.wxpay</name>
+			<url>https://raw.githubusercontent.com/fyeeme/maven-repository/master</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>··
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 ```
 2. add plugin
 
