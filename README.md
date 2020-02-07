@@ -31,8 +31,13 @@
 
 2. unzip zip file 
 
-3. run command in root dir of the zipped file
+3. run command shell
+```shell script
+ mkdir maven-repo/repository
+ mvn deploy -DaltDeploymentRepository=wxpay-sdk::default::file:/Users/allen/Projects/custom/netease/wxppay_sdk_v3.0.9/maven-repo/repository
+```
  
+ [more information](https://blog.csdn.net/sinat_26342009/article/details/89425819)
 >> this will generate the jar file
 
 ```shell
